@@ -1,0 +1,57 @@
+/* Include at least: 
+- *ID Selector* (e.g. *#content*)
+- *Class Selector*
+- *Descendant Selector* for the dynamically created Boston College facts (paragraphs)
+- Custom *Hover-Effect* for hyperlinks
+- *Padding* and *Margin* properties
+- *Color* or *Background-Color* properties*/
+
+html{
+font-family: "Gill Sans", sans-serif;
+}
+
+.button{
+background-color:rgb(191, 191, 189);
+transition-duration: 0.4s;
+}
+
+div{
+    padding-top: 10px;
+}
+
+.title{
+border-style: double;
+text-align: center;
+}
+
+div p{
+background-color:rgb(225, 252, 250);
+text-align: center;
+padding: 20px;
+}
+
+#caption{
+font-size: 12px;
+font-style: italic;
+}
+
+body {
+text-align: center;
+}
+
+img{
+border:2; margin-bottom:5; margin-top: 30;
+border-radius: 50%;
+text-align: center;
+width: 30%;
+}
+
+a:hover {
+color: green;
+text-decoration: underline;
+}
+
+.button:hover{
+background-color: green;
+color: white;   
+}
